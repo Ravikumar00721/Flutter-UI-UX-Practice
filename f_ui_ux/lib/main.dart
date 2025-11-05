@@ -1,4 +1,5 @@
 import 'package:f_ui_ux/features/layout_basics/container_example.dart';
+import 'package:f_ui_ux/features/layout_basics/padding.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -16,15 +17,7 @@ class MyApp extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("UI/UX"),
-          backgroundColor: Colors.teal,
-        ),
-        body: const Center(
-          child: MyContainer(),
-        ),
-      ),
+      home: PSC()
     );
   }
 }
