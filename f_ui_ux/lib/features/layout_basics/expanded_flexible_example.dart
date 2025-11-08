@@ -18,7 +18,7 @@ class ExpandedFlexibleDemo extends StatelessWidget {
             children: [
 
               const Text(
-                "1️⃣ Normal Row (no Expanded/Flexible):",
+                "Normal Row (no Expanded/Flexible):",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               Container(
@@ -35,7 +35,7 @@ class ExpandedFlexibleDemo extends StatelessWidget {
               const SizedBox(height: 20),
 
               const Text(
-                "2️⃣ Row with Expanded (fills all available space):",
+                "Row with Expanded (fills all available space):",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               Container(
@@ -59,7 +59,7 @@ class ExpandedFlexibleDemo extends StatelessWidget {
 
 
               const Text(
-                "3️⃣ Row with Flexible (can shrink or expand):",
+                "Row with Flexible (can shrink or expand):",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               Container(
@@ -92,7 +92,7 @@ class ExpandedFlexibleDemo extends StatelessWidget {
 
 
               const Text(
-                "4️⃣ Column with Expanded & Flexible:",
+                "Column with Expanded & Flexible:",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               Container(
@@ -130,7 +130,7 @@ class ExpandedFlexibleDemo extends StatelessWidget {
               const SizedBox(height: 30),
 
               const Text(
-                "5️⃣ FlexFit.tight vs FlexFit.loose:",
+                "FlexFit.tight vs FlexFit.loose:",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               Container(
