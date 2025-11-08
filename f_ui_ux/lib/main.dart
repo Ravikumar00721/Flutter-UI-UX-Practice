@@ -1,6 +1,7 @@
 import 'package:f_ui_ux/features/layout_basics/container_example.dart';
 import 'package:f_ui_ux/features/layout_basics/padding.dart';
 import 'package:f_ui_ux/features/layout_basics/row_column_example.dart';
+import 'package:f_ui_ux/features/layout_basics/stack_align_example.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExpandedFlexibleDemo()
+      home: StackPos()
     );
   }
 }
