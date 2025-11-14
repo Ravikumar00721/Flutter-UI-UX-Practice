@@ -1,5 +1,6 @@
 import 'package:f_ui_ux/common_widgets/app_Appbar_Drawer.dart';
 import 'package:f_ui_ux/common_widgets/app_button.dart';
+import 'package:f_ui_ux/common_widgets/app_input_field.dart';
 import 'package:f_ui_ux/features/layout_basics/container_example.dart';
 import 'package:f_ui_ux/features/layout_basics/gridview.dart';
 import 'package:f_ui_ux/features/layout_basics/listview.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AllButtonApp()
+      home: AppFields()
     );
   }
 }
