@@ -3,19 +3,7 @@ import 'package:multi_select_flutter/multi_select_flutter.dart';
 import 'package:dropdown_search/dropdown_search.dart';
 import 'package:chips_choice/chips_choice.dart';
 
-void main() => runApp(const DropDownApp());
 
-class DropDownApp extends StatelessWidget {
-  const DropDownApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: AllDropdowns(),
-    );
-  }
-}
 
 class AllDropdowns extends StatefulWidget {
   const AllDropdowns({super.key});
